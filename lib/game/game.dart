@@ -25,8 +25,8 @@ class SkiMasterGame extends FlameGame
   static const speedSfx = 'Speed.wav';
   static const bulletSfx = 'Bullet.wav';
 
-  final musicValueNotifier = ValueNotifier(false);
-  final sfxValueNotifier = ValueNotifier(false);
+  final musicValueNotifier = ValueNotifier(true);
+  final sfxValueNotifier = ValueNotifier(true);
 
   ValueNotifier<bool> showJoypadNotifier = ValueNotifier(false);
 
