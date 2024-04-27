@@ -62,8 +62,6 @@ class Gameplay extends Component with HasGameReference<SkiMasterGame> {
   late final input = Input(
     keyCallbacks: {
       LogicalKeyboardKey.keyP: onPausePressed,
-      LogicalKeyboardKey.keyC: () => onLevelCompleted.call(3),
-      LogicalKeyboardKey.keyO: onGameOver,
       LogicalKeyboardKey.space: (() => player.useSkill(hud.currentSkillName))
     },
   );
@@ -384,6 +382,7 @@ class Gameplay extends Component with HasGameReference<SkiMasterGame> {
     _fader.add(OpacityEffect.fadeIn(LinearEffectController(1.5)));
     input.active = false;
     player.active = false;
+    bulletSpawner.timer.stop();
     _levelCompleted = true;
     if (_nSnowmanCollected <= _star3) {
       onLevelCompleted.call(3);
