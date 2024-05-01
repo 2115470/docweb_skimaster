@@ -394,9 +394,9 @@ class Gameplay extends Component with HasGameReference<SkiMasterGame> {
   }
 
   void _onSnowmanCollected() {
-    _nSnowmanCollected++;
     if (!player.hasShield) {
       player.speed *= 0.5;
+      _nSnowmanCollected++;
     } else {
       player.deactivateShield();
     }
