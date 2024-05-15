@@ -1,6 +1,6 @@
 # docweb_skimaster
 
-A modified web version of [Ski Master](https://github.com/ufrshubham/ski_master) made by [DevKage](https://github.com/ufrshubham) using the [Flame Engine](https://flame-engine.org/)
+A modified web version of [Ski Master](https://github.com/ufrshubham/ski_master) originally made by [DevKage](https://github.com/ufrshubham) using the [Flame Engine](https://flame-engine.org/)
 
 ## Play
 
