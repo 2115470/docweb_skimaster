@@ -4,7 +4,7 @@ A modified web version of [Ski Master](https://github.com/ufrshubham/ski_master)
 
 ## Play
 
-In this updated version, the player needs to get to the finish line by fleeing the avalanche and dodging the snowmen.    
+In this modified version, the player needs to get to the finish line by fleeing the avalanche and dodging the snowmen.    
 Skills were also added to help the player.  
 
 Try the game [here](https://2115470.github.io/docweb_skimaster/)
